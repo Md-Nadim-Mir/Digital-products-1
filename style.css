@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 .header-section{
@@ -29,4 +30,43 @@ nav>ul>li>a{
     font-size: 20px;
     margin: 15px;
     text-decoration: none;
+}
+
+/* headeer part end */
+
+.section-1{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 270px;
+    background-color: #544141;
+}
+
+.title{
+
+    color: white;
+    font-size: 40px;
+
+}
+
+.paragraph{
+
+    color: white;
+    font-size: 20px;
+}
+
+.button-design{
+
+    background-color: red;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.banner-img{
+
+    width: 300px;
+    height: 300px;
 }
