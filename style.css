@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-section{
+
+    background-color: #424141;
+    height: 70px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.top-logo{
+
+    width: 100px;
+}
+
+nav>ul{
+    display: flex;
+    margin: 20px;
+    list-style: none;
+}
+
+nav>ul>li>a{
+    color: aliceblue;
+    font-size: 20px;
+    margin: 15px;
+    text-decoration: none;
+}
